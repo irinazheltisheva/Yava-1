@@ -1,38 +1,13 @@
-package geekbrains.lesson2;
-
-import java.util.Scanner;
+package ru.geekbrains.lesson1;
 
 public class Main {
 
     public static void main(String[] args) {
-	System.out.println("Введите операцию");
-	System.out.println("1. Сложение");
-	System.out.println("2. Вычитание");
-	System.out.println("3. Умножение");
-	System.out.println("4. Деление");
-        Scanner scanner = new Scanner(System.in);
-        int operetions = scanner.nextInt();
-        System.out.println("Введите первое число");
-        int a = scanner.nextInt();
-        System.out.println("Введите второе число");
-        int b = scanner.nextInt();
-        int result = 0;
-        if (operetions == 1) {
-            result = a + b;
-            System.out.println("Рузультат = " + result);
-        } else {
-            if (operetions == 2) {
-                result = a - b;
-            } else {
-                if (operetions == 3) {
-                result = a * b;
-            } else  {
-                if (operetions == 4)  {
-              result = a / b;
-                }
-            System.out.println("Рузультат = " + result);
-        }
-            }
-        }
+	printThreeWorlds();
+    }
+    public static void printThreeWorlds() {
+    System.out.println("Orange");
+    System.out.println("Banana");
+    System.out.println("Apple");
     }
 }
