@@ -1,24 +1,25 @@
-package ru.geekbrains.lesson2;
+package ru.geekbrains.lesson3;
 
 public class Main {
 
-    public static boolean main(String[] args) {
-        boolean methodName;
-        System.out.println("true"); {
-            int b = 14;
-            int a = 11;
+    private static Object String;
 
-            int sum = (a + b);
-            if (sum > 10 && sum <= 50) {
-                final boolean b1 = true;
-                return b1;
+    public static void main(String[] args) {
 
-            } else {
-                final boolean b1 = false;
-                if (b1) return true;
-                else return false;
+        (); {
+
+            int[] arr = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
+            for (int i = 0; i < arr.length; i++) {
+                System.out.println(String[i] arr.length);
+
             }
 
         }
-    }
 }
+
+
+
+
+
+
+
